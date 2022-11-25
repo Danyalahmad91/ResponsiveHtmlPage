@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+
+    <title></title>
+    <style>
+        #li1 {
+            font-size: 11px;
+            margin-left: 300px;
+            margin-top: 30px;
+        }
+
+        .decor {
+            width: 1000px;
+            background-color: orangered;
+            margin-top: 40px;
+            color: white;
+            margin-bottom: 50px;
+            border: none;
+        }
+
+        .bg-img {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .navbar-default {
+            background: none;
+            border: none;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: block;
+            transition: top 0.3s;
+        }
+
+        .navbar-nav {
+            margin-left: 300px;
+            display: block;
+        }
+
+        .bg-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #D5A021;
+            border-color: #FF0000;
+            outline-color: #FF0000;
+        }
+
+        .sw1 {
+            border-color: white;
+            outline-color: white;
+        }
+
+        .sw2 {
+            border-color: black;
+            outline-color: black;
+        }
+
+        .p1 {
+            margin-left: 250px;
+            background-color: red;
+            width: 300px;
+            height: 300px;
+        }
+
+        .p2 {
+            margin-left: 20px;
+            background-color: slategrey;
+            width: 300px;
+            height: 300px;
+        }
+
+        .p3 {
+            margin-top: 50px;
+        }
+
+        .p4 {
+            margin-top: 50px;
+        }
+
+        .dot {
+            height: 6px;
+            width: 6px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-image shadow-1-strong rounded">
+        <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Background1.jpg" width="1500"
+             height="800">
+        <div class="mask bg-text" style="background-color: rgba(0, 0, 0, 0.1)">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <h1 class="text-white mb-0">Helping Business And Companies<br />Innovate Transform And Lead</h1><br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue quis velit sed euismod. Donec nec magna in tellus tristique gravida. Sed dictum ante eu nunc consequat, et condimentum orci sodales.</p>
+                <br /><button type="button" class="btn btn-danger">Start Now</button>
+                <button type="button" class="btn btn-primary" style="background-color:transparent" ;>Our services</button>
+
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <h3 style="color:white; margin-left:150px; margin-top:50px;"><b>Kallyas</b></h3>
+    </div>-->
+    <div class="navbar navbar-default" id="nav">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 style="color:white; margin-left:100px; margin-top:30px;"><b>Kallyas<span class="dot"></span></b></h3>
+
+                </div>
+                <div class="col-md-9">
+                    <div class="collapse navbar-collapse" style="margin-top:30px;">
+
+                        <ul class="nav navbar-nav">
+
+                            <li><a style="color:white" ;><u style="text-decoration-color:red">Home</u></a></li>
+                            <li><a style="color:white" ;>Services</a></li>
+                            <li><a style="color:white" ;>Works</a></li>
+                            <li><a style="color:white" ;>About us</a></li>
+                            <li><a style="color:white" ;>Features</a></li>
+                            <li><a style="color:white" ;>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="align-content: center;">
+            <div class="col-sm-4 p1">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\notes.png" width="50"
+                     height="50" style="margin-left:0px; margin-top:25px;">
+                <h4 style="color:white; margin-top:45px;"> Content Concept & Stratergy</h4>
+                <h4 style="color:white" ;>_______________</h4>
+                <h5 style="color:white" ;>Sed blandit tincidunt diam scelerisque efficitur. Phasellus ante<br /> lacus, viverra ac vestibulum vitae, laoreet ac ante.</h5>
+            </div>
+            <div class="col-sm-4 p2">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\pencil.png" width="50"
+                     height="50" style="margin-left:0px; margin-top:25px;">
+                <h4 style="color:white; margin-top:45px;"> Design & Concepts</h4>
+                <h4 style="color:white" ;>_______________</h4>
+                <h5 style="color:white" ;>Sed blandit tincidunt diam scelerisque efficitur. Phasellus ante<br /> lacus, viverra ac vestibulum vitae, laoreet ac ante.</h5>
+            </div>
+            <div class="col-sm-4 p2">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\analysis.png" width="50"
+                     height="50" style="margin-left:0px; margin-top:25px;">
+                <h4 style="color:white; margin-top:45px;"> Seo & Marketing Solutions</h4>
+                <h4 style="color:white" ;>_______________</h4>
+                <h5 style="color:white" ;>Sed blandit tincidunt diam scelerisque efficitur. Phasellus ante<br /> lacus, viverra ac vestibulum vitae, laoreet ac ante.</h5>
+            </div>
+        </div>
+    </div>
+    <div>
+        <br /><br />
+        <p style="text-align:center; color:red;"><b>Services</b></p>
+        <h1 style="text-align:center;">Best Services for<span style="color:red;">  Visual Perfection</span></h1><br /><br />
+        <p style="text-align:center;  color:darkgrey">
+            Nam sollicitudin vel lorem quis ullamcorper. Cras semper lobortis elementum.<br /> Sed et fringilla nisl,
+            sed eleifend arcu.
+        </p><br />
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="margin-left:250px;">
+            <div class="col-md-3 p3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\work.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center; margin-top:20px;"><b>Strategy</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+            <div class="col-md-3 p4">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\aim.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center; margin-top:20px;"><b>Marketing</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+            <div class="col-md-3 p4">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\cpu.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center;margin-top:20px;"><b>Technology</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+        </div>
+        <div class="row" style="margin-left:250px;">
+            <div class="col-md-3 p3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\eccomerce.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center;margin-top:20px; "><b>Ecommerce</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+            <div class="col-md-3 p4">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\branding.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center; margin-top:20px;"><b>Branding</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+            <div class="col-md-3 p4">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\hacker.png" width="50"
+                     height="50" style="margin-left:110px; margin-top:0px;">
+                <h4 style="text-align:center; margin-top:20px;"><b>SEO Identity</b></h4>
+                <p style="text-align:center; color:dimgrey">Quisque egestas ullamcorper diam,<br /> a interdum quam consequat sed.<br /> Ut lobortis mauris viverra tellus egestas efficitur.</p>
+            </div>
+        </div>
+    </div><br /><br />
+    <div class=" container-fluid" style="padding:50px;">
+        <div class="row" style="background-color:black">
+            <div class="col-md-6">
+                <h1 style="color:white; padding:50px;">Detailed Business plans & the<br />most effective results</h1>
+                <p style="color:darkgray; padding:25px; margin-left:20px;margin-bottom:20px;">
+                    Praesent sed tincidunt ante, vitae tincidunt magna. Praesent sed velit sed leo fringilla viverra eu et massa.<br />
+                    Aliquam ornare consequat nunc sodales faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada<br />
+                    fames ac turpis egestas.
+                </p>
+                <button type="button" class="btn btn-primary sw1" style="margin-left:40px; margin-bottom:20px;  background-color:transparent" ;>Start Now</button>
+            </div>
+            <div class="col-md-6">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image1.jpg" width="240"
+                     height="300" style="padding: 10px; margin-left:90px; margin-top:70px;">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image2.jpg" width="240"
+                     height="300" style="padding: 10px; margin-left:10px; margin-top:70px;">
+            </div>
+        </div>
+        <div class="row" style="background-color:aliceblue;">
+            <div class="col-sm-6" style="margin-top:25px;">
+                <div class="row" style="padding:20px;  margin-left:130px ">
+                    <div class="col-sm-3">
+                        <h4 style="font-size:14px; font-weight:900"><b>01. Elegant / unique design</b></h4>
+                        <p style="font-size:9px;color:grey;"> Etiam elit ante, aliquet sed congue non, consequat eget odio. Praesent rutrum tempus lacinia.</p>
+                    </div>
+                    <div class="col-sm-3" style="margin-left:90px;">
+                        <h4 style="font-size:14px; font-weight:900"><b>02. True Responsiveness</b></h4>
+                        <p style="font-size:9px;color:grey;"> Etiam elit ante, aliquet sed congue non, consequat eget odio. Praesent rutrum tempus lacinia.</p>
+                    </div>
+                </div>
+                <div class="row" style="padding:20px;  margin-left:130px ">
+                    <div class="col-sm-3">
+                        <h4 style="font-size:14px; font-weight:900"><b>03. Different layout type</b></h4>
+                        <p style="font-size:9px;color:grey;"> Etiam elit ante, aliquet sed congue non, consequat eget odio. Praesent rutrum tempus lacinia.</p>
+                    </div>
+                    <div class="col-sm-3" style="margin-left:90px;">
+                        <h4 style="font-size:14px; font-weight:900"><b>04. Make it simple</b></h4>
+                        <p style="font-size:9px;color:grey;"> Etiam elit ante, aliquet sed congue non, consequat eget odio. Praesent rutrum tempus lacinia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6" style="margin-top:30px;">
+                <h3 style="font-weight:900"><b>We provide high quality and<br />cost effective services.</b></h3><br />
+                <p style="margin-top:15px; font-size:14px;color:dimgrey;">Praesent sed tincidunt ante, vitae tincidunt magna. Praesent sed velit sed leo fringilla viverra eu et massa.<br /> Aliquam ornare consequat nunc sodales faucibus.</p>
+                <p style="margin-top:35px;font-size:14px; color:dimgrey;">Praesent sed tincidunt ante, vitae tincidunt magna. Praesent sed velit sed leo fringilla viverra eu et massa.<br /> Aliquam ornare consequat nunc sodales faucibus.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center; font-size:12px;"><b><u>ALL</u></b></p>
+            </div>
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center;font-size:12px;">WEB</p>
+            </div>
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center;font-size:12px;">ADVERTISING</p>
+            </div>
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center;font-size:12px;">BRANDING</p>
+            </div>
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center;font-size:12px;">DESIGN</p>
+            </div>
+            <div class="col-sm-2">
+                <p style="color:dimgrey; text-align:center;font-size:12px;">PHOTOGRAPHY</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" style="padding:20px;">
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image3.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image4.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image5.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image6.jpg" width="350"
+                     height="270">
+            </div>
+        </div>
+        <div class="row" style="padding:20px;">
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image3.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image4.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image5.jpg" width="350"
+                     height="270">
+            </div>
+            <div class="col-sm-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image6.jpg" width="350"
+                     height="270">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style=" margin-top:50px;">
+                <h2 style="font-weight:800; margin-left:180px;"><b>We are trusted by more than<br /> 3600+ clients </b></h2>
+                <p style="margin-top:50px; margin-left:180px;color:grey;">
+                    Quisque egestas ullamcorper diam, a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur.
+                    Sed vel sapien tristique, mattis erat eget, euismod enim. Mauris vel augue ac lacus feugiat ullamcorper.
+                </p>
+                <button type="button" class="btn sw2" style="background-color:transparent; margin-top:20px; margin-left:180px;">Learn more</button>
+
+            </div>
+            <div class="col-sm-6" style="margin-top:70px; ">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image7.jpg" width="500"
+                     height="250">
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="container-fluid" style="padding:50px;">
+        <div class="row" style="background-color:black;">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image11.jpg" width="220"
+                             height="150" style="margin-left:20px;">
+
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image10.jpg" width="150"
+                             height="150" style="margin-left:130px;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image12.jpg" width="250"
+                             height="180" style="margin-left:20px; margin-top:50px;">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image13.png" width="120"
+                             height="130" style="margin-left:130px; margin-top:50px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1 style="color:white;"><b>Clients with projects proudly<br />      crafted by our agency</b></h1><br /><br /><br /><br />
+                <p style="color:lightgrey; font-size:13px;">
+                    Quisque egestas ullamcorper diam, a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur.
+                    Sed vel sapien tristique, mattis erat eget, euismod enim. Mauris vel augue ac lacus feugiat ullamcorper.Quisque egestas ullamcorper diam,
+                    a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur. Sed vel sapien tristique, mattis erat eget, euismod enim.
+                    Mauris vel augue ac lacus feugiat ullamcorper.
+                </p>
+            </div>
+        </div>
+        <div class="row" style="background-color:aliceblue;">
+            <div class="col-md-6">
+                <div style="margin-left:150px; margin-top:70px;">
+                    <h2 style="font-weight:600">Beautifully handcrafted<br /> designs for your website</h2>
+                    <p style="margin-top:50px;color:grey;">
+                        Quisque egestas ullamcorper diam, a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur.
+                        Sed vel sapien tristique, mattis erat eget, euismod enim.Ut lobortis mauris viverra tellus egestas efficitur.
+                        Sed vel sapien tristique, mattis erat eget, euismod enim.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\Image14.jpg" width="400"
+                     height="350" style="margin-top:60px; margin-left:150px;">
+            </div>
+
+        </div>
+        <div class="row" style="background-color:aliceblue;">
+            <div class="col-md-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\cloud.png" width="50"
+                     height="50" style="margin-left:190px; margin-top:0px;">
+                <h5 style="margin-left:150px;   font-weight:500"><b>Secured Database</b></h5>
+                <p style=" margin-left:150px; font-size:12px; color:grey;">
+                    Quisque egestas ullamcorper diam, a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur.
+
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="\Users\Danyal\source\Repos\Assignment 2\Images\decent.png" width="50"
+                     height="50" style="margin-left:190px; margin-top:0px;">
+                <h5 style="margin-left:150px;   font-weight:500"><b>Mordern Framework</b></h5>
+                <p style=" margin-left:150px;  font-size:12px;color:grey;">
+                    Quisque egestas ullamcorper diam, a interdum quam consequat sed. Ut lobortis mauris viverra tellus egestas efficitur.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>
+                    <b><span style="margin-left:340px;">Want to have a</span><br /><span style="margin-left:260px;">proffesional project?</span><br /><span style="margin-left:300px;">Let's talk about it.</span></b>
+                </h2>
+                <p style="margin-left:290px; margin-top:40px; font-size:12px;color:grey;">
+                    Quisque egestas ullamcorper diam, a interdum quam<br /> consequat sed. Ut lobortis mauris viverra tellus egestas<br /> efficitur.
+                    Sed vel sapien tristique, mattis erat eget, euis<br />-mod enim.Ut lobortis mauris viverra tellus egestas efficitur.
+                </p>
+                <p style="margin-left:290px; margin-top:20px; font-size:12px;color:grey;">
+                    Quisque egestas ullamcorper diam, a interdum quam<br /> consequat sed. Ut lobortis mauris viverra tellus egestas<br /> efficitur.
+                    Sed vel sapien tristique, mattis erat eget, euis<br />-mod enim.Ut lobortis mauris viverra tellus egestas efficitur.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="Your name*" style="margin-top:25px; margin-left:50px; width:365px; height:30px;">
+                <div class="row">
+                    <div class="col-md-3">
+                        <input type="text" placeholder="Company name*" style="margin-top:18px; margin-left:50px; width:180px; height:30px;">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="email" placeholder="Email address*" style="margin-top:18px; margin-left:50px; width:180px; height:30px;">
+                    </div>
+                </div>
+                <select style="margin-top:18px; margin-left:50px; width:365px; height:30px;">
+                    <option value="Select service*" style="text-decoration-color:grey;">Select service*</option>
+                </select>
+                <textarea id="w3review" placeholder="Describe your project*" name="w3review" rows="8" cols="48" style="margin-top:18px; margin-left:50px;"></textarea>
+            </div>
+        </div>
+        <div class="row" style="text-align:center;">
+            <input type="submit" value="Submit" class="decor">
+        </div>
+    </div>
+    <br />
+    <div class="container-fluid" style="background-color:black;">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 style="color:white; margin-left:150px; margin-top:50px;"><b>Kallyas<span class="dot"></span></b></h3><br /><br />
+                <p style="color:white; margin-left:150px;"><b>Contact</b></p>
+                <p style="font-size:9px; color:lightslategrey; margin-left:150px;">758 E Beechwood Lane Shore, NY 11706<br />youremail@address.com, +1202-555-0158</p>
+                <br /><br />
+                <div class="row" style="margin-bottom:10px;">
+                    <img src="\Users\Danyal\source\Repos\Assignment 2\Images\instagram.png" width="20"
+                         height="20" style="margin-left:160px;">
+                    <img src="\Users\Danyal\source\Repos\Assignment 2\Images\facebook.png" width="20"
+                         height="20" style="margin-left:15px;">
+                    <img src="\Users\Danyal\source\Repos\Assignment 2\Images\twitter.png" width="20"
+                         height="20" style="margin-left:15px;">
+                    <img src="\Users\Danyal\source\Repos\Assignment 2\Images\linkedin.png" width="20"
+                         height="20" style="margin-left:15px;">
+                </div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="li1">
+                        <li><a style="color:white" ;>Home</a></li>
+                        <li><a style="color:white" ;>Services</a></li>
+                        <li><a style="color:white" ;>Works</a></li>
+                        <li><a style="color:white" ;>About us</a></li>
+                        <li><a style="color:white" ;>Features</a></li>
+                        <li><a style="color:white" ;>Contact</a></li>
+                    </ul>
+                </div>
+                <br /><br /><p style="font-size:10px; color:white; margin-left:610px;">Subscribe to newsletter</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Your e-mail address:" style="margin-top:25px; margin-left:325px; width:340px; height:30px; font-size:10px;">
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="submit" placeholder="Submit" style="margin-top:24px; margin-left:332px; width:65px; height:32px; background-color:darkorange">
+
+                    </div>
+
+                </div><br /><br /><br />
+                <p style="color:dimgrey; font-size:7px; margin-left:550px; "><span>&copy</span> all rights reserved Buy Kayllas wordpress theme</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav").style.top = "0";
+            } else {
+                document.getElementById("nav").style.top = "-70px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+</html>
